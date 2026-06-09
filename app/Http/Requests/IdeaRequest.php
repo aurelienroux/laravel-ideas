@@ -23,7 +23,7 @@ class IdeaRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'idea' => ['required', 'min:10'],
+            // 'idea' => ['required', 'min:10'],
             'description' => ['required', 'min:10']
         ];
     }
@@ -31,7 +31,7 @@ class IdeaRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'idea.required' => 'Custom message required for :attribute',
+            // 'idea.required' => 'Custom message required for :attribute',
             'description.required' => 'Custom message required for :attribute',
         ];
     }

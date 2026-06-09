@@ -6,5 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Idea extends Model
 {
-    protected $guarded = [];
+    // protected $guarded = [];
+    protected $fillable = [
+        'description',
+        'state',
+        'user_id',
+    ];
 }
