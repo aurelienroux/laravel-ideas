@@ -14,6 +14,11 @@
                 <li>
                     <a href="/ideas/create">Create</a>
                 </li>
+                @can('view-admin')
+                    <li>
+                        <a href="/admin">Admin</a>
+                    </li>
+                @endcan
             </ul>
         </div>
         <a class="btn btn-ghost text-xl">Ideas Store</a>
@@ -26,6 +31,11 @@
             <li>
                 <a href="/ideas/create">Create</a>
             </li>
+            @can('view-admin')
+                <li>
+                    <a href="/admin">Admin</a>
+                </li>
+            @endcan
         </ul>
     </div>
     <div class="navbar-end space-x-2">
