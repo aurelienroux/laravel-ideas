@@ -18,7 +18,7 @@
     @else
         <p>
             No ideas yet.
-            <a href="/ideas/create" class="underline">Create a new one!</a>
         </p>
     @endif
+    <a href="/ideas/create" class="underline mt-10 block">Create a new one!</a>
 </x-layout>
