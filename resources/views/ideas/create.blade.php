@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <x-forms.error name='idea' />
+        <x-forms.error name='description' />
 
         <button type="submit"
             class="rounded-md mt-6 bg-indigo-500 px-3 py-2 text-sm font-semibold  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Create</button>
